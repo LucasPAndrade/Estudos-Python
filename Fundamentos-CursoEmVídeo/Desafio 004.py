@@ -1,0 +1,8 @@
+print('===== DESAFIO 004 =====')
+n=input('Digite algo:')
+print(f'O tipo primitivo desta variável é{type(n)}')
+print('É apenas numérico?',n.isnumeric())
+print('É apenas alfabético?',n.isalpha())
+print('É alfanumérico?',n.isalnum())
+print('Só tem espaços?',n.isspace())
+print('Está capitalizada?',n.istitle())
